@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>心理咨询预约</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <script type="text/javascript" src="Js/jeasyui/jquery.min.js"></script>
+      <script type="text/javascript" src="Js/jeasyui/jquery.easyui.min.js"></script>
+      <script src="Js/jeasyui/locale/easyui-lang-zh_CN.js" type="text/javascript"></script>
+      <link rel="stylesheet" href="Js/jeasyui/themes/default/easyui.css" type="text/css"/>
+      <link rel="stylesheet" href="Js/jeasyui/themes/icon.css" type="text/css"/>
+      <script type="text/javascript" src="Js/Student.js"></script>
+  </head>
+  <body class="easyui-layout">
+    <div data-options="region:'north',collapsible:false,split:false,border:false,title:'南京邮电大学心理咨询预约登记'" style="height:100px;background-image: url(Images/njupt.png);background-repeat: no-repeat;
+	background-size: 300px 100px;background-attachment: fixed;">
+    </div>
+    <div class="easyui-layout-copyright" data-options="region:'south',split:false,border:false">
+    	版权所有© 南京邮电大学 
+    </div> 
+    <div data-options="region:'center',title:'请尽可能填写您的个人信息'" style="padding:5px;">
+    	<ul class="main_body">
+			<li style="color: red;">注意：请务必登记您的真实情况，我们将根据您所填的资料为您安排专业的咨询师!</li>
+    		<li>学号：<input class="easyui-textbox" type="text" id="id">姓名：<input class="easyui-textbox" type="text" id="name">性别：
+    			<select name='sex' id='sex'>
+ 				<option value ="man">男</option>
+ 				<option value ="woman">女</option>
+			</select>是否需要紧急预约<select name='emergency' id='emergency'>
+ 				<option value ="yes">是</option>
+ 				<option value ="no">否</option>
+			</select></li>
+    		<li>学院：<input class="easyui-textbox" type="text" id="academy">年级：<input class="easyui-textbox" type="text" id="grade">
+    		手机号：<input class="easyui-textbox" type="text" id="tel"></li>
+			<li>空闲时间段一：<select name='week1' id='week1'>
+ 				<option value="day_one1">星期一</option>
+ 				<option value="day_two1">星期二</option>
+ 				<option value="day_three1">星期三</option>
+ 				<option value="day_four1">星期四</option>
+ 				<option value="day_five1">星期五</option>
+			</select>
+			<select name='time1' id='time1'>
+ 				<option value ="time_one1">9.am-10.am</option>
+ 				<option value ="time_two1">10.am-11.am</option>
+ 				<option value="time_three1">2.pm-3.pm</option>
+ 				<option value="time_four1">3.pm-4.pm</option>
+			</select>
+			
+			空闲时间段二：<select name='week2' id='week2'>
+ 				<option value ="day_one2">星期一</option>
+ 				<option value ="day_two2">星期二</option>
+ 				<option value="day_three2">星期三</option>
+ 				<option value="day_four2">星期四</option>
+ 				<option value="day_five2">星期五</option>
+			</select>
+			<select name='time2' id='time2'>
+ 				<option value ="time_one2">9.am-10.am</option>
+ 				<option value ="time_two2">10.am-11.am</option>
+ 				<option value="time_three2">2.pm-3.pm</option>
+ 				<option value="time_four2">3.pm-4.pm</option>
+			</select></li>
+    		<li>目前状态：<input class="easyui-textbox" data-options="multiline:true"style="width:600px;height:100px"id="state"></li>
+    		<li>对咨询师有何特殊需求：<input class="easyui-textbox" data-options="multiline:true"style="width:600px;height:100px"id="require"></li>
+    		<li>来访原因：<input class="easyui-textbox" data-options="multiline:true"style="width:600px;height:100px"id="reason">
+    		</li>
+   			<li>预约心理咨询：
+   			<a href="#" class="easyui-linkbutton easyui-linkbutton-login" id="btn_Ok">提交</a>
+   			</li>
+   		</ul>
+    </div>  
+ </body>  
+  
+</html>

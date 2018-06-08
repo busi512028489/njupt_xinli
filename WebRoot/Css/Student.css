@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    height: 100%;
+}
+.head {
+	height: 100%;
+	width:850px;
+	margin:0 auto;
+	background-image: url(../Images/bg.png);
+}
+ul li{
+	list-style-type: none;
+	margin:20px 0;
+	text-align:left;
+}

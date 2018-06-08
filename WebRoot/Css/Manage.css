@@ -1,0 +1,307 @@
+
+body {
+    background: #FFFFFF;
+    font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0px;
+    border: 0;
+    padding: 0;
+}
+
+.easyui-layout-north {
+    height: 75px;
+    overflow: hidden;
+    background-color: #0b7deb;
+}
+
+.layout-panel-west .panel-header-noborder {
+    border: 0px;
+    background-color: #29425b;
+}
+
+.layout-expand-west .panel-header,
+.layout-expand-west .panel-body,
+.easyui-accordion-menu,
+.easyui-layout-menu,
+.easyui-accordion-menu .accordion-header {
+    background-color: #29425b;
+    border: 0px;
+    color: #fff;
+}
+
+.easyui-accordion-menu {
+    padding-top: 20px;
+}
+
+.easyui-layout-menu {
+    width: 190px;
+}
+
+.layout-panel-center,
+.layout-panel-center .panel-body,
+.easyui-layout-main {
+    overflow: hidden;
+}
+
+.easyui-accordion-menu .accordion-header .panel-title {
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.easyui-accordion-menu .accordion-header-selected,
+.easyui-accordion-menu .accordion-body {
+    background-color: #345980;
+    border: 0px;
+    color: #fff;
+}
+
+.easyui-layout-copyright {
+    height: 30px;
+    color: #fff;
+    line-height: 30px;
+    vertical-align: middle;
+    background-color: #29425b;
+    text-align: right;
+    padding-right: 50px;
+    overflow: hidden;
+}
+
+.banner {
+    height: 75px;
+    line-height: 75px;
+    color: #fff;
+    font-size: 23px;
+    padding-left: 50px;
+    vertical-align: middle;
+    float: left;
+    font-weight: bold;
+}
+
+.info {
+    height: 75px;
+    line-height: 75px;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 50px;
+    vertical-align: middle;
+    float: right;
+    padding-right: 50px;
+}
+
+.easyui-linkbutton-exit {
+    background-color: #eb8514;
+    border: 0px;
+    color: #fff;
+    margin-left: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+    .easyui-linkbutton-exit:hover {
+        background-color: #F1410E;
+        border: 0px;
+        color: #fff;
+        margin-left: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+.subMenu {
+}
+
+    .subMenu li {
+        padding-left: 40px;
+        list-style-type: none;
+        height: 30px;
+        color: #fff;
+        font-size: 14px;
+        text-decoration: none;
+        line-height: 30px;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+
+        .subMenu li.selected,
+        .subMenu li:hover {
+            background-color: #f69050;
+        }
+
+.easyui-tabs-main .tabs .tabs-title {
+    font-size: 14px;
+    color: #000;
+}
+
+.tabs-header {
+    background-color: #fff;
+}
+
+.tabs li a.tabs-inner {
+    background-color: #fff;
+    color: #666;
+}
+
+.tabs li.tabs-selected a.tabs-inner {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+    .tabs li a.tabs-inner .tabs-title,
+    .tabs li.tabs-selected a.tabs-inner .tabs-title {
+        color: #666;
+    }
+
+.window .window-header, .window-thinborder .window-header {
+    background-color: #0b7feb;
+}
+
+    .window .window-header .panel-title {
+        color: #Fff;
+    }
+
+.window .window-body {
+    background-color: #f0f0f0;
+}
+
+.window .window-header, .window-thinborder .window-header {
+    background-color: #0b7feb;
+}
+
+    .window .window-header .panel-title {
+        color: #Fff;
+    }
+
+.window .window-body {
+    background-color: #f0f0f0;
+}
+
+.dialog-button {
+    background-color: #f0f0f0;
+    background-image: none;
+    text-align: center;
+}
+
+
+    .dialog-button .l-btn {
+        background-color: #127fec;
+        padding: 0;
+        border: 0;
+        color: #fff;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+        .dialog-button .l-btn:hover {
+            background-color: #f69050;
+        }
+
+    .dialog-button .l-btn-icon-left .l-btn-icon {
+        width: 24px;
+        height: 24px;
+        margin-top: -12px;
+    }
+
+    .dialog-button .l-btn-text {
+        font-size: 14px;
+        line-height: 35px;
+        vertical-align: middle;
+        color: #fff;
+    }
+
+    .dialog-button .l-btn-icon-left .l-btn-text {
+        margin-left: 45px;
+    }
+
+.dialog-button {
+    background-color: #f0f0f0;
+    background-image: none;
+    text-align: center;
+}
+
+
+    .dialog-button .l-btn {
+        background-color: #127fec;
+        padding: 0;
+        border: 0;
+        color: #fff;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+        .dialog-button .l-btn:hover {
+            background-color: #f69050;
+        }
+
+    .dialog-button .l-btn-icon-left .l-btn-icon {
+        width: 24px;
+        height: 24px;
+        margin-top: -12px;
+    }
+
+    .dialog-button .l-btn-text {
+        font-size: 14px;
+        line-height: 35px;
+        vertical-align: middle;
+        color: #fff;
+    }
+
+    .dialog-button .l-btn-icon-left .l-btn-text {
+        margin-left: 45px;
+    }
+
+.tree-node-selected {
+    background-color: transparent;
+    border: 0px;
+    color: #fff;
+}
+
+.tree li ul,
+.tree-node-hover,
+.tree-node-active {
+    background-color: #345980;
+    border: 0px;
+    color: #fff;
+}
+.tree-node-leaf-active-hover,
+.tree-node-leaf-active {
+    background-color: #f69050;
+    border: 0px;
+    color: #fff;
+} 
+.tree-node {
+    height: 30px;
+    font-size: 16px;
+}
+
+.tree-title {
+    line-height: 30px;
+}
+.tree-collapsed 
+{
+    
+    background-position: 0px 5px;
+}
+.tree-expanded {
+    background-position: -18px 5px;
+}
+
+.tree-folder-open {
+    background-position: -224px 5px;
+    display: none;
+}
+
+.tree-icon,
+.tree-folder {
+    background-position: -208px 5px;
+    display: none;
+}
+
+.tree-node {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tree-hit {
+    float: right;
+}

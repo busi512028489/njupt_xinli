@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="xinli"
+  id="myeclipse.1511334986474"
+  context-root="/xinli"
+  j2ee-spec="5.0"
+  archive="xinli.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
